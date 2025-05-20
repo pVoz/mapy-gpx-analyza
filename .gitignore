@@ -1,0 +1,15 @@
+# Ignoruj virtuálne prostredie
+venv/
+
+# SQLite databáza
+*.db
+
+# Cache a kompilované súbory
+__pycache__/
+*.pyc
+
+# Exportované výstupy
+*.png
+*.html
+*.csv
+*.json

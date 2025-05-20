@@ -1,0 +1,8 @@
+# Ponechať Unixové LF konce riadkov
+*.py text eol=lf
+*.gpx text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+
+# Automatické normalizovanie všetkých textových súborov
+* text=auto
