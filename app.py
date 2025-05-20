@@ -1,3 +1,10 @@
+from dotenv import load_dotenv
+load_dotenv()     # načíta premenné z .env do os.environ
+import os
+token = os.getenv("CESIUM_TOKEN")
+
+
+
 import streamlit as st
 import sqlite3
 import numpy as np

@@ -13,3 +13,5 @@ __pycache__/
 *.html
 *.csv
 *.json
+# Citlivé údaje
+.env
